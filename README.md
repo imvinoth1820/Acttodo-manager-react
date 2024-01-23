@@ -1,80 +1,30 @@
-# Getting Started with Create React App
+# React Activity Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Vercel Link for this project - https://acttodo-manager-react.vercel.app/
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Welcome to React Activity Manager, an intuitive and beautifully designed full-stack React project crafted to elevate your daily activity management. This application leverages the power of React Hooks, ensuring a clean and efficient design while offering a range of functionalities for seamless task tracking.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Authentication**: Secure login and signup functionality for a personalized experience.
+- **Advanced Hook Usage**: Harness the power of React Hooks (useState, useEffect) for state management and side effects.
+- **Intuitive Design**: Thoughtfully crafted UI for easy navigation and a delightful user experience.
+- **Activity Management**: Add, view, and delete daily activities effortlessly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React
+- React Hooks (useState, useEffect, useHistory, useLocation)
+- React Router
+- HTML5, CSS3
+- Tailwind CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-<div style={{backgroundColor:"#FD6663"}} className="px-10 py-5 border rounded-md text-center flex-grow">
-        <h1 className="font-medium text-2xl">20</h1>
-        <p>December</p>
-        
-      </div>
-      <div style={{backgroundColor:"#FCA201"}} className="px-10 py-5 border rounded-md text-center flex-grow">
-        <h1 className="font-medium text-2xl">Built Using</h1>
-        <p>React</p>
-        
-      </div>
+- **`src/pages`**: React components for different pages (Login, Signup, Landing).
+- **`src/components`**: Reusable components (TodoContainer, TodoList, TodoItem, Card, Header).
+- **`src/App.js`**: Main application component with React Router setup.
+- **`src/index.js`**: Entry point for the React application.
+      
